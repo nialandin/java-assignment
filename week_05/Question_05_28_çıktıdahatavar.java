@@ -2,7 +2,7 @@ package assignments.week_05;
 
 import java.util.Scanner;
 
-public class Question_05_28 {
+public class Question_05_28_çıktıdahatavar {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class Question_05_28 {
         String dayName = "";
         int dayNumber = firstDay;
 
-        for (int month = 1; month < 12; month++) {
+        for (int month = 1; month < 13; month++) {
 
 
             switch (dayNumber % 7) {

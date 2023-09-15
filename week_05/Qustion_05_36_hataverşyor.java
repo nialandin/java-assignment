@@ -2,7 +2,7 @@ package assignments.week_05;
 
 import java.util.Scanner;
 
-public class Qustion_05_36 {
+public class Qustion_05_36_hataverşyor {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -17,17 +17,12 @@ public class Qustion_05_36 {
         for (int i = 0; i <= 9; i++) {
 
             for (int j = 1; j <= 9; j++) {
-
-
-                char c = isbnNumber.charAt(i);
+            char c = isbnNumber.charAt(i);
                 int digit = Character.getNumericValue(c);
-                int formal = (digit * j);
-                sum += formal;
-
-
-
-
+               int formal = (digit * j);
+               sum += formal;
             }
+
         }
         int digitSum = sum % 11;
 
@@ -36,7 +31,6 @@ public class Qustion_05_36 {
         } else {
             System.out.println(isbnNumber + digitSum);
         }
-
     }
 
 }

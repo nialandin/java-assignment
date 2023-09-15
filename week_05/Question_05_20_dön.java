@@ -20,7 +20,7 @@ public class Question_05_20_dön {
 
                 }
             }
-            
+
             }
         }
     }

@@ -2,7 +2,7 @@ package assignments.week_05;
 
 import java.util.Scanner;
 
-public class Question_05_26 {
+public class Question_05_26_bitmedi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double e = 0;

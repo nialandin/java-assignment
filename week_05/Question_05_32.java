@@ -2,7 +2,7 @@ package assignments.week_05;
 
 import java.util.Scanner;
 
-public class Question_05_31 {
+public class Question_05_32 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -17,14 +17,12 @@ public class Question_05_31 {
         int userNumber = input.nextInt();
 
 
-
-
-        int firstDigit = (int) (Math.random() *10);
+        int firstDigit = (int) (Math.random() * 10);
         int secondDigit = 0;
-        while (secondDigit==0) {
-            secondDigit =(int) (Math.random() * 10);
+        while (secondDigit == 0) {
+            secondDigit = (int) (Math.random() * 10);
         }
-        int lotteryNumber = firstDigit*10 + secondDigit;
+        int lotteryNumber = firstDigit * 10 + secondDigit;
         System.out.println("The lottery number is " + lotteryNumber);
 
 
