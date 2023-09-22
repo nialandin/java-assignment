@@ -1,4 +1,4 @@
-package week_02;
+package assignments.src.week_02;
 
 import java.util.Scanner;
 

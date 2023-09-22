@@ -1,6 +1,6 @@
 package assignments.src.week_01;
 
-public class Question_001_12 {
+public class Question_01_12 {
     public static void main(String[] args) {
         System.out.println("Distance in miles:");
         System.out.println("24.0");

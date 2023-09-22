@@ -1,4 +1,4 @@
-package week_05.nias;
+package assignments.src.week_05;
 
 import java.util.Scanner;
 

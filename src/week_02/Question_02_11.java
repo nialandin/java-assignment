@@ -1,4 +1,4 @@
-package week_02.assignments.assignments.nia;
+package assignments.src.week_02;
 
 import java.net.SocketOption;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package assignments.week_04_;
+package assignments.src.week_04;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

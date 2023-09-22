@@ -1,4 +1,4 @@
-package week_01.assignment;
+package assignments.src.week_01;
 
 public class Question_01_10 {
     public static void main(String[] args) {
