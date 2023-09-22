@@ -19,7 +19,7 @@ bu numaraları max ve  min ile sıralama yapacağız metodun içinde
     }
 
     public static void displaySortedNumbers(double num1, double num2, double num3){
-         
+        System.out.println("denemee");
     }
 
 }
