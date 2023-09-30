@@ -2,7 +2,7 @@ package assignments.src.week_06;
 
 import java.util.Scanner;
 
-public class Question_Team4_03 {
+public class team4_03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
