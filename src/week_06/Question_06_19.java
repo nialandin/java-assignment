@@ -1,4 +1,4 @@
-/*
+
 package assignments.src.week_06;
 
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class Question_06_19 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter three sides for a triangle:");
+        System.out.print("Enter three sides for a triangle:");
         int side1 = input.nextInt();
         int side2 = input.nextInt();
         int side3 = input.nextInt();
@@ -32,7 +32,9 @@ public class Question_06_19 {
             return false;
         }
     }
-   // public static double area(double side1, double side2, double side3){
 
-
-*/
+    public static double area(double side1, double side2, double side3) {
+        double s = (side1 + side2 + side3) / 2;
+        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+    }
+}

@@ -7,7 +7,7 @@ public class Question_06_35 {
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Enter the side:");
+        System.out.print("Enter the side:");
         double side = input.nextDouble();
 
         System.out.println("The area of the pentagon is " + area(side));
